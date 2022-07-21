@@ -1,0 +1,8 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="entity.Message" table="message">
+        <id column="id" type="java.lang.Long" name="id">
+            <generator class="increment"/>
+        </id>
+        <property name="text" column="text" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
